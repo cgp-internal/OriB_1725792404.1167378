@@ -1,0 +1,26 @@
+{
+    ".gitignore": {
+        "description": "Git ignore configurations",
+        "dependencies": {},
+        "exposes": []
+    },
+    "index.html": {
+        "description": "Basic HTML page that displays Hello World",
+        "dependencies": {},
+        "exposes": []
+    },
+    "README.md": {
+        "description": "README file for HTML project",
+        "dependencies": {
+            "index.html": [],
+            ".gitignore": [],
+            "js/index.js": []
+        },
+        "exposes": []
+    },
+    "js\\index.js": {
+        "description": "Logs a message to the console.",
+        "dependencies": {},
+        "exposes": []
+    }
+}
